@@ -1,0 +1,18 @@
+.big {
+    color: darkturquoise;
+    background-color: fuchsia;
+    opacity: 0.5;
+}
+
+.medium {
+    color: rgba(0, 206, 209, 0.5);
+    background-color: greenyellow;
+}
+
+.small {
+    color: #00ced1; 
+    background-color: blue;
+}
+body {
+    background-color: lightsalmon;
+}

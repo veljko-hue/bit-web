@@ -1,0 +1,29 @@
+#firstUnordered{
+    list-style-type: circle;
+}
+
+#secondUnordered{
+    list-style-type: square;
+}
+
+#firstOrdered{
+    list-style-type: upper-alpha;
+    
+}
+
+#secondOrdered{
+    list-style-type: upper-roman;
+}
+
+#thirdUnordered{
+    list-style-image: url( a  3.jpg);
+    list-style-type: circle;
+    list-style-position: outside;
+    width: 200px;
+}
+
+#fourthUnordered{
+    list-style-type: square;
+    width: 200px;
+    list-style-position: inside;
+}

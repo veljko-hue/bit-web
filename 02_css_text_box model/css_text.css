@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url('kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('kaushanscript-regular-webfont.woff') format('woff');
+}
+
+
+h1 {
+    font-family: 'Odibee Sans';
+}
+.first {
+    font-size: 20px;
+    font-family: 'kaushan_scriptregular';
+}
+.second {
+    font-weight: bolder;
+}
+.third {
+    font-style: italic;
+}

@@ -1,0 +1,29 @@
+#first {
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: left;
+}
+#second {
+text-transform: lowercase;
+text-decoration: line-through;
+text-align: right;
+
+}
+#third {
+text-align: center;
+}
+a:link {
+    color:red;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: green;
+}
+a:active {
+    color: blue;
+}
+li {
+    text-shadow: 1px 1px 0.5px black;
+}
