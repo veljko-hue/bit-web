@@ -1,0 +1,38 @@
+/* #first-div {
+  background-color: navy;
+  height: 400px;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.blue {
+  width: 150px;
+  background-color: orangered;
+  color: green;
+  margin-top: 150px;
+  padding: ;
+}
+
+#button {
+  width: 150px;
+  height: 80px;
+} */
+
+#third {
+  position: fixed;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/field.png);
+}
+
+img {
+  width: 150px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
