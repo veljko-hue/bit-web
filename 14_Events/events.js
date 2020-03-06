@@ -26,15 +26,28 @@
 
 // movePlayer()
 
-var movePlayer = function () {
-    var body = document.querySelector("body")
-    var player = document.querySelector("img")
+// //////////////////////////////////////////////
+// var movePlayer = function () {
+//     var body = document.querySelector("body")
+//     var player = document.querySelector("img")
 
-    body.addEventListener("click", function (event) {
-        player.style.top = event.clientY + "px";
-        player.style.left = event.clientX + "px";
+//     body.addEventListener("click", function (event) {
+//         player.style.top = event.clientY + "px";
+//         player.style.left = event.clientX + "px";
+//     })
+
+// }
+
+////////////////////////////////////////////// jquery
+
+
+$(function () {
+
+
+    $('body').on('click', function () {
+        var player = $('.player');
+        player.css('left', event.clientX + "px");
+        player.css('top', event.clientY + "px");
     })
 
-}
-
-movePlayer()
+});

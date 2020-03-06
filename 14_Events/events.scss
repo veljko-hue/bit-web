@@ -1,11 +1,26 @@
-#first-div {
-  background-color: navy;
-  height: 400px;
-  width: 800px;
-  margin: 0 auto;
+// #first-div {
+//   background-color: navy;
+//   height: 400px;
+//   width: 800px;
+//   margin: 0 auto;
+// }
+
+// #button {
+//   width: 150px;
+//   background-color: orangered;
+// }
+
+body{
+  background-image: url(/images/field.png);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-size: cover;
 }
 
-#button {
-  width: 150px;
-  background-color: orangered;
+.player{
+  position: absolute;
+  height: 50px;
 }

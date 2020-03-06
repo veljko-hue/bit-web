@@ -1,0 +1,31 @@
+/* .bottomBorder{
+   border-bottom: solid 1px black;
+    
+}
+
+.upperCase{
+    text-transform: uppercase;
+}
+
+.elemColor{
+
+    color: violet;
+}
+
+.bc{
+
+    background-color: teal;
+} */
+
+/* Second part of he exercise */
+
+
+.gallery{
+
+    max-width: 960px;
+    width: 100%;
+}
+
+.border{
+    border: solid 5px green;
+}
